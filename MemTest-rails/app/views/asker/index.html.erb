@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Asker</h1>
+
+<h2>Prompt: <%= @question.prompt %> </h2>
+
+<% options = [@question.choice1, @question.choice2, @question.choice3, @question.choice4] %>
+<% (0...options.length).each do |index| %>
+<%= button_to options[index], asker_path(index: index, question: @question.id) %>
+<% end %>

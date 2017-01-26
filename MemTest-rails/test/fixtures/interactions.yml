@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question: one
+  response: 1
+  prompt_time: 2017-01-26 21:20:17
+  thinking_milis: 1
+
+two:
+  question: two
+  response: 1
+  prompt_time: 2017-01-26 21:20:17
+  thinking_milis: 1

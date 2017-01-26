@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @interaction.question %>
+</p>
+
+<p>
+  <strong>Response:</strong>
+  <%= @interaction.response %>
+</p>
+
+<p>
+  <strong>Prompt time:</strong>
+  <%= @interaction.prompt_time %>
+</p>
+
+<p>
+  <strong>Thinking milis:</strong>
+  <%= @interaction.thinking_milis %>
+</p>
+
+<%= link_to 'Edit', edit_interaction_path(@interaction) %> |
+<%= link_to 'Back', interactions_path %>
